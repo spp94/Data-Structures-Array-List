@@ -1,4 +1,4 @@
-public class ArrayList {
+public class ArrayList { 
 	private int size;
 	private int[] items;
 	public ArrayList(){
