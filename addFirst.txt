@@ -1,4 +1,4 @@
-public void addFirst(int item){
+public void addFirst(int item){ 
 		int[] temp = new int[size+1];
 		for(int i = size; i > 0; i--){
 			temp[i] = items[i-1];
