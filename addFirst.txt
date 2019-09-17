@@ -1,0 +1,9 @@
+public void addFirst(int item){
+		int[] temp = new int[size+1];
+		for(int i = size; i > 0; i--){
+			temp[i] = items[i-1];
+		}
+		temp[0] = item;
+		size++;
+		items = temp;
+	}
