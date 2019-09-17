@@ -1,0 +1,6 @@
+public void removeFirst(){
+		for(int i = 0; i < size-1; i++){
+			items[i] = items[i+1];
+		}
+		size--;
+	}
